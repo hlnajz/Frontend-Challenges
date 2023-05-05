@@ -7,8 +7,8 @@ const displayMsg = function (message) {
 
 // comparing the Numbers
 const GreatestNumber = function () {
-  const x = document.getElementById('numberOne').value;
-  const y = document.getElementById('numberTwo').value;
+  const x = Number(document.getElementById('numberOne').value);
+  const y = Number(document.getElementById('numberTwo').value);
 
   if (isNaN(x) || isNaN(y)) {
     displayMsg('Please Enter Valid Numbers❌');
